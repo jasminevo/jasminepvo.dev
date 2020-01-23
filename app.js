@@ -16,7 +16,7 @@ $(document).ready(function() {
       console.log(typeof guess)      //found out it returns as string
       if (parseInt(guess) === numberToGuess) {  //== is just a bandaid, use parsing
           alert("Correct Number")
-      } else (parseInt(guess) > numberToGuess) {
+      } else if (parseInt(guess) > numberToGuess) {
           alert("Too High")
       } else {
           alert("Too Low")
