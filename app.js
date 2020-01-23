@@ -17,9 +17,9 @@ $(document).ready(function() {
       if (parseInt(guess) === numberToGuess) {  //== is just a bandaid, use parsing
           alert("Correct Number")
       } elseif (parseInt(guess) > numberToGuess) {
-        alert("Too High")
+          alert("Too High")
       } else {
-        alert("Too Low")
+          alert("Too Low")
       }
       
     }
